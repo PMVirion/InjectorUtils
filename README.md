@@ -21,3 +21,21 @@ InjectorPositionUtils::TYPE_INTERVAL
 
 InjectorPositionUtils::TYPE_FLOATVAL;
 ```
+
+
+## Injector Item Utils.
+
+- Accept the name of the item.
+```php
+\skh6075\injectorutils\InjectorItemUtils::getItemName(Item $item);
+```
+
+- A Item receives information in the form of a string.
+```php
+\skh6075\injectorutils\InjectorItemUtils::itemToHash(Item $item, bool $pushDamage, bool $pushCompoundTag);
+```
+
+- - A Hash string is created as a Item class.
+```php
+\skh6075\injectorutils\InjectorItemUtils::hashToItem(string $hash);
+```
