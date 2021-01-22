@@ -35,7 +35,7 @@ InjectorPositionUtils::TYPE_FLOATVAL;
 \skh6075\injectorutils\InjectorItemUtils::itemToHash(Item $item, bool $pushDamage, bool $pushCompoundTag);
 ```
 
-- - A Hash string is created as a Item class.
+- A Hash string is created as a Item class.
 ```php
 \skh6075\injectorutils\InjectorItemUtils::hashToItem(string $hash);
 ```
