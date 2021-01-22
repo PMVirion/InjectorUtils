@@ -39,3 +39,20 @@ InjectorPositionUtils::TYPE_FLOATVAL;
 ```php
 \skh6075\injectorutils\InjectorItemUtils::hashToItem(string $hash);
 ```
+
+## Injector Skin Utils.
+
+- Receive the method of the Skin class as array.
+```php
+\skh6075\injectorutils\InjectorSkinUtils::skinToMap(Skin $skin);
+```
+
+- Converts SkinMap to a Skin class.
+```php
+\skh6075\injectorutils\InjectorSkinUtils::mapToSkin(array $skinMap);
+```
+
+- Converts Geometry data into a modeling Skin class.
+```php
+\skh6075\injectorutils\InjectorSkinUtils::makeGeometrySkin(Skin $skin, string $path, string $geometryName);
+```
